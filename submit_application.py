@@ -20,9 +20,7 @@ def submit(name: str, email: str):
     r = requests.post(f'{BCG_DV_API}/submit', json=data, params=params)
     if (r.status_code == 202):
         print('Submission successful.')
-        print(r.json())
-    else:
-        print(r.json())
+    print(r.json())
 
 
 if __name__ == '__main__':
