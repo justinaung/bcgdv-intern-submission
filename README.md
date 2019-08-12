@@ -1,13 +1,13 @@
 # BCGDV Internship Application Submission
 
 ## Requirements
-- python 3.7
+- Python 3.7
 - pipenv
 
 ## Installation
-Simply type in the following command line in the root directory to install the requirements.
+Type in the following command line in the root directory to install the requirements.
 ```
-pipenv install
+pipenv install --python=3.7
 ```
 
 And, enter this command to load the python virtual environment.
